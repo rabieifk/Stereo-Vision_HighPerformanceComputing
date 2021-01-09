@@ -6,7 +6,7 @@ There are many method to calculate the image depth that one of them is Sterio Vi
 
 By using the OpenCV library, the tsukuba image has been loaded and the time is claculated. For SIMD the instruction which is used is listed [here](https://github.com/rabieifk/Stereo-Vision_HighPerformanceComputing/blob/master/Instructions).
 
-To implement Pthread, the thread should be alocated by the programmer with using some instructions such as pthread_t thread(NUM_THREADS) that is shown [here](https://computing.llnl.gov/tutorials/pthreads/)
+To implement Pthread, the thread should be alocated by the programmer with using some instructions such as pthread_t thread(NUM_THREADS) that is shown [here](https://computing.llnl.gov/tutorials/pthreads/).
 
 The result shows that with a larger image the excuation time of all method would increase but the excution time of SIMD is 3.5x better that the other methods in average. With increasing in the size of the window, SIMD has the better performance since the number of bytes which are read would increase, on the other hand increaaing in the window size would increase the excution time.
 
