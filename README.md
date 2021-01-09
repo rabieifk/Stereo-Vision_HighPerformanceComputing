@@ -1,6 +1,6 @@
 # Stereo-Vision_HighPerformanceComputing
 
-**Objective:** The comparison between SIMD, [Pthread](https://en.wikipedia.org/wiki/POSIX_Threads) and [OpenCV](https://en.wikipedia.org/wiki/OpenCV) in implementation of [stereo vision](https://en.wikipedia.org/wiki/Computer_stereo_vision) algorithm
+**Objective:** The comparison between SIMD, [Pthread](https://en.wikipedia.org/wiki/POSIX_Threads) and [OpenCV](https://en.wikipedia.org/wiki/OpenCV) in implementation of [Stereo Vision](https://en.wikipedia.org/wiki/Computer_stereo_vision) algorithm
 
 There are many method to calculate the image depth that one of them is Sterio Vision. The refrence picture is in the [link](http://vision.middlebury.edu/stereo/). This project is the implementation of stereo vision algorithm with SIMD and Pthread and OpenCV.
 
