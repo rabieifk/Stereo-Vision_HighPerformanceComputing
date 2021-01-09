@@ -1,0 +1,8 @@
+_mm_setzero_si128()
+_mm_loadu_si128()
+_mm_and_si128()
+_mm_sad_epu8()
+_mm_add_epi16()
+_mm_cmplt_epi16()
+_mm_cvtsi128_si32()
+_mm_min_epu16()
